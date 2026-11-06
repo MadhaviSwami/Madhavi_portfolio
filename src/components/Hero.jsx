@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, ChartLine, Database, BrainCircuit, MapPin, ChevronDown } from 'lucide-react'
+import { ArrowRight, ChartLine, Database, BrainCircuit, MapPin, ChevronDown, Mail } from 'lucide-react'
 import { profile } from '../data/profile'
 import TypingText from './TypingText'
-import ResumeButton from './ResumeButton'
 import { GithubIcon, LinkedinIcon } from './BrandIcons'
 
 const ease = [0.22, 1, 0.36, 1]
@@ -53,7 +52,9 @@ export default function Hero({ ready }) {
               Explore My Projects
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
             </a>
-            <ResumeButton className="btn btn-ghost w-full sm:w-auto" />
+            <a href="#contact" className="btn btn-ghost w-full sm:w-auto">
+              <Mail size={18} /> Contact Me
+            </a>
           </motion.div>
 
           <motion.div variants={item} className="mt-9 flex items-center justify-center gap-3 lg:justify-start">

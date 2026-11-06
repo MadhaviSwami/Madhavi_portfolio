@@ -10,7 +10,6 @@ const NAV_LINKS = [
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
   { id: 'education', label: 'Education' },
-  { id: 'resume', label: 'Resume' },
   { id: 'contact', label: 'Contact' },
 ]
 const IDS = NAV_LINKS.map((l) => l.id)

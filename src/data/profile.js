@@ -9,7 +9,6 @@ export const profile = {
     'I enjoy transforming raw data into meaningful insights and building intelligent solutions using Python, SQL, data visualization, and machine learning.',
 
   photo: '/profile.jpg',
-  resume: '/Madhavi_Swami_Resume.pdf',
 
   email: 'madhaviswami609@gmail.com',
   location: 'Pune, Maharashtra, India',
